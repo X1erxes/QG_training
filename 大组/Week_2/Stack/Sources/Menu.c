@@ -94,6 +94,11 @@ void Choose ( int choice , LinkStack *L) {
     else if ( choice == 11 ) {
         exit(0);
     }
+    else {
+        printf("输入错误！\n");
+        Reset();
+        return;
+    }
     return;
 }
 

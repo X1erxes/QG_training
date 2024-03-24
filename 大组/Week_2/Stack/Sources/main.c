@@ -11,8 +11,8 @@ int main (void) {
     DisplayMenu();
     do
     {
-        Choose(choice,L);
         scanf("%d",&choice);
+        Choose(choice,L);
     } while (1);
     
     return 0;
