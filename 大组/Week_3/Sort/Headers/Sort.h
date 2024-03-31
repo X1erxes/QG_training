@@ -1,0 +1,10 @@
+void InsertSort(int array[],int len);
+void MergeRecursive (int array[],int ret[],int start,int end);
+void MergeSort(int array[],const int len);
+void QuickRecursive(int array[],int start,int end);
+void QuickSort(int array[],int len);
+void CountSort(int array[],const int len);
+int MaxBit(int array[], int len);
+void RadixCountSort(int array[],const int len);
+int mmin (int x,int y);
+int mmax (int x,int y);
